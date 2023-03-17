@@ -1,0 +1,18 @@
+.card{
+    transition: transform .30s;
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card-main {
+    gap: 5rem;
+    margin: 2rem 0;
+    
+}
+@media screen and (min-width:1440px) {
+    .card-main{
+        gap: 6rem;
+        margin-top:3rem ;
+    }
+    
+}

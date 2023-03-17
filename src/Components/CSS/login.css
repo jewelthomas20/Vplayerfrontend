@@ -1,0 +1,28 @@
+.loginBanner{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.container-login{
+    padding: 4rem 2rem;
+}
+.login-btn{
+    display: block;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    opacity: .8;
+}
+
+.login-btn:hover{
+opacity: 1;
+}
+@media screen and (min-width:768px) {
+    label,input{
+        font-size: 1.3rem;
+    }
+    .login-btn{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+    .container{padding: 2rem 4rem 4rem 4rem;}
+}
